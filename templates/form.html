@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post" action="/process">
+        <div>
+            <p>Your Name: <input type="text" name="name"></p>
+        </div>
+        <div>
+            <p>
+                Dojo Location: 
+                <select name="location">
+                    <option value="San Jose">San Jose</option>
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="Seattle">Seattle</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>Favorite Language: 
+            <select name="language">
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+            </p>
+        </div>
+        <div>
+            <p>Comment (Optional):</p>
+        </div>
+        <div>
+            <textarea name="comment" rows="3" columns="30">
+
+            </textarea>
+        </div>
+                <input type="submit" value="Register">
+    </form>
+</body>
+</html>
